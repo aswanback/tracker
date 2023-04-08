@@ -66,7 +66,7 @@ class AccelStepper:
                 break
 
     def pinMode(self, pin:int, iotype:int):
-        # GPIO.setmode(GPIO.BCM)
+        # GPIO.setmode(GPIO.BOARD)
         # pi_iotype = GPIO.OUT if iotype == IOType.OUTPUT.value else GPIO.IN
         # GPIO.setup(pin, pi_iotype)
         pass

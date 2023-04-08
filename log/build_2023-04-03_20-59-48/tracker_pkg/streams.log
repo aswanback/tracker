@@ -1,0 +1,38 @@
+[0.331s] Invoking command in '/root/ws/build/tracker_pkg': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/ws/build/tracker_pkg/build
+[0.428s] running develop
+[0.428s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.428s]   warnings.warn(
+[0.428s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.428s]   warnings.warn(
+[0.481s] Invoked command in '/root/ws/build/tracker_pkg' returned '0': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/ws/build/tracker_pkg/build
+[0.481s] Invoking command in '/root/ws/src/tracker_pkg': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracker_pkg build --build-base /root/ws/build/tracker_pkg/build install --record /root/ws/build/tracker_pkg/install.log --single-version-externally-managed
+[0.569s] running egg_info
+[0.569s] writing ../../build/tracker_pkg/tracker_pkg.egg-info/PKG-INFO
+[0.569s] writing dependency_links to ../../build/tracker_pkg/tracker_pkg.egg-info/dependency_links.txt
+[0.569s] writing entry points to ../../build/tracker_pkg/tracker_pkg.egg-info/entry_points.txt
+[0.569s] writing requirements to ../../build/tracker_pkg/tracker_pkg.egg-info/requires.txt
+[0.569s] writing top-level names to ../../build/tracker_pkg/tracker_pkg.egg-info/top_level.txt
+[0.570s] reading manifest file '../../build/tracker_pkg/tracker_pkg.egg-info/SOURCES.txt'
+[0.570s] writing manifest file '../../build/tracker_pkg/tracker_pkg.egg-info/SOURCES.txt'
+[0.571s] running build
+[0.571s] running build_py
+[0.571s] copying tracker_pkg/fake_gps_node.py -> /root/ws/build/tracker_pkg/build/lib/tracker_pkg
+[0.571s] copying tracker_pkg/tracker_node.py -> /root/ws/build/tracker_pkg/build/lib/tracker_pkg
+[0.571s] running install
+[0.571s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.572s]   warnings.warn(
+[0.572s] running install_lib
+[0.572s] copying /root/ws/build/tracker_pkg/build/lib/tracker_pkg/fake_gps_node.py -> /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg
+[0.572s] copying /root/ws/build/tracker_pkg/build/lib/tracker_pkg/tracker_node.py -> /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg
+[0.572s] byte-compiling /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg/fake_gps_node.py to fake_gps_node.cpython-310.pyc
+[0.572s] byte-compiling /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg/tracker_node.py to tracker_node.cpython-310.pyc
+[0.572s] running install_data
+[0.572s] copying launch/tracker_launch.py -> /root/ws/install/tracker_pkg/share/tracker_pkg
+[0.573s] running install_egg_info
+[0.573s] removing '/root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.574s] Copying ../../build/tracker_pkg/tracker_pkg.egg-info to /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg-0.0.0-py3.10.egg-info
+[0.574s] running install_scripts
+[0.585s] Installing fake_gps_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+[0.585s] Installing tracker_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+[0.585s] writing list of installed files to '/root/ws/build/tracker_pkg/install.log'
+[0.610s] Invoked command in '/root/ws/src/tracker_pkg' returned '0': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracker_pkg build --build-base /root/ws/build/tracker_pkg/build install --record /root/ws/build/tracker_pkg/install.log --single-version-externally-managed

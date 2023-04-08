@@ -1,0 +1,5 @@
+[console_scripts]
+fake_gps_node = tracker_pkg.fake_gps_node:main
+fake_ui_node = tracker_pkg.fake_ui_node:main
+tracker_node = tracker_pkg.tracker_node:main
+

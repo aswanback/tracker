@@ -1,0 +1,35 @@
+[0.351s] Invoking command in '/root/ws/build/tracker_pkg': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/ws/build/tracker_pkg/build
+[0.444s] running develop
+[0.444s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.444s]   warnings.warn(
+[0.445s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.445s]   warnings.warn(
+[0.479s] Removing /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker-pkg.egg-link (link to .)
+[0.494s] Invoked command in '/root/ws/build/tracker_pkg' returned '0': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/ws/build/tracker_pkg/build
+[0.495s] Invoking command in '/root/ws/src/tracker_pkg': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracker_pkg build --build-base /root/ws/build/tracker_pkg/build install --record /root/ws/build/tracker_pkg/install.log --single-version-externally-managed
+[0.580s] running egg_info
+[0.580s] writing ../../build/tracker_pkg/tracker_pkg.egg-info/PKG-INFO
+[0.581s] writing dependency_links to ../../build/tracker_pkg/tracker_pkg.egg-info/dependency_links.txt
+[0.581s] writing entry points to ../../build/tracker_pkg/tracker_pkg.egg-info/entry_points.txt
+[0.581s] writing requirements to ../../build/tracker_pkg/tracker_pkg.egg-info/requires.txt
+[0.581s] writing top-level names to ../../build/tracker_pkg/tracker_pkg.egg-info/top_level.txt
+[0.581s] reading manifest file '../../build/tracker_pkg/tracker_pkg.egg-info/SOURCES.txt'
+[0.582s] writing manifest file '../../build/tracker_pkg/tracker_pkg.egg-info/SOURCES.txt'
+[0.582s] running build
+[0.582s] running build_py
+[0.582s] running install
+[0.582s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.582s]   warnings.warn(
+[0.582s] running install_lib
+[0.582s] creating /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg
+[0.583s] copying /root/ws/build/tracker_pkg/build/lib/tracker_pkg/__init__.py -> /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg
+[0.583s] copying /root/ws/build/tracker_pkg/build/lib/tracker_pkg/fake_gps_node.py -> /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg
+[0.583s] byte-compiling /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg/__init__.py to __init__.cpython-310.pyc
+[0.583s] byte-compiling /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg/fake_gps_node.py to fake_gps_node.cpython-310.pyc
+[0.583s] running install_data
+[0.583s] running install_egg_info
+[0.584s] Copying ../../build/tracker_pkg/tracker_pkg.egg-info to /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker_pkg-0.0.0-py3.10.egg-info
+[0.585s] running install_scripts
+[0.596s] Installing fake_gps_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+[0.596s] writing list of installed files to '/root/ws/build/tracker_pkg/install.log'
+[0.617s] Invoked command in '/root/ws/src/tracker_pkg' returned '0': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracker_pkg build --build-base /root/ws/build/tracker_pkg/build install --record /root/ws/build/tracker_pkg/install.log --single-version-externally-managed

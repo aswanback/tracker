@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000506] (pkg) JobQueued: {'identifier': 'pkg', 'dependencies': OrderedDict()}
+[0.000532] (pkg) JobStarted: {'identifier': 'pkg'}
+[0.100042] (-) TimerEvent: {}
+[0.203295] (-) TimerEvent: {}
+[0.223093] (pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/pkg', 'build', '--build-base', '/root/ws/src/build/pkg/build', 'install', '--record', '/root/ws/src/build/pkg/install.log', '--single-version-externally-managed'], 'cwd': '/root/ws/src/pkg', 'env': {'HOSTNAME': 'f533e266e35a', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/root/ws', 'TERM_PROGRAM_VERSION': '1.77.0', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-c3be7b9f-f262-406d-8b12-03482e4013fd.sock', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-276a474e-05c9-4762-9c7a-1aa9d684795f.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/bin/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-276a474e-05c9-4762-9c7a-1aa9d684795f.sock","/tmp/.X11-unix/X2"]', 'DISPLAY': ':2', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-e2e6dcd0e4.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-276a474e-05c9-4762-9c7a-1aa9d684795f.sock', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X2', 'SHELL': '/bin/bash', 'PWD': '/root/ws/src/build/pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/root/ws/src/build/pkg/prefix_override:/root/ws/src/install/pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.304268] (-) TimerEvent: {}
+[0.305011] (pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.305267] (pkg) StdoutLine: {'line': b'creating ../build/pkg/pkg.egg-info\n'}
+[0.305416] (pkg) StdoutLine: {'line': b'writing ../build/pkg/pkg.egg-info/PKG-INFO\n'}
+[0.305506] (pkg) StdoutLine: {'line': b'writing dependency_links to ../build/pkg/pkg.egg-info/dependency_links.txt\n'}
+[0.305593] (pkg) StdoutLine: {'line': b'writing entry points to ../build/pkg/pkg.egg-info/entry_points.txt\n'}
+[0.305729] (pkg) StdoutLine: {'line': b'writing requirements to ../build/pkg/pkg.egg-info/requires.txt\n'}
+[0.305797] (pkg) StdoutLine: {'line': b'writing top-level names to ../build/pkg/pkg.egg-info/top_level.txt\n'}
+[0.305888] (pkg) StdoutLine: {'line': b"writing manifest file '../build/pkg/pkg.egg-info/SOURCES.txt'\n"}
+[0.306449] (pkg) StdoutLine: {'line': b"reading manifest file '../build/pkg/pkg.egg-info/SOURCES.txt'\n"}
+[0.306819] (pkg) StdoutLine: {'line': b"writing manifest file '../build/pkg/pkg.egg-info/SOURCES.txt'\n"}
+[0.306944] (pkg) StdoutLine: {'line': b'running build\n'}
+[0.306999] (pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.307076] (pkg) StdoutLine: {'line': b'creating /root/ws/src/build/pkg/build\n'}
+[0.307133] (pkg) StdoutLine: {'line': b'creating /root/ws/src/build/pkg/build/lib\n'}
+[0.307209] (pkg) StdoutLine: {'line': b'creating /root/ws/src/build/pkg/build/lib/pkg\n'}
+[0.307241] (pkg) StdoutLine: {'line': b'copying pkg/__init__.py -> /root/ws/src/build/pkg/build/lib/pkg\n'}
+[0.307272] (pkg) StdoutLine: {'line': b'copying pkg/fake_gps_node.py -> /root/ws/src/build/pkg/build/lib/pkg\n'}
+[0.307344] (pkg) StdoutLine: {'line': b'copying pkg/node.py -> /root/ws/src/build/pkg/build/lib/pkg\n'}
+[0.307423] (pkg) StdoutLine: {'line': b'running install\n'}
+[0.307457] (pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.307502] (pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.307587] (pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.307849] (pkg) StdoutLine: {'line': b'creating /root/ws/src/install/pkg/lib/python3.10/site-packages/pkg\n'}
+[0.307954] (pkg) StdoutLine: {'line': b'copying /root/ws/src/build/pkg/build/lib/pkg/__init__.py -> /root/ws/src/install/pkg/lib/python3.10/site-packages/pkg\n'}
+[0.307995] (pkg) StdoutLine: {'line': b'copying /root/ws/src/build/pkg/build/lib/pkg/fake_gps_node.py -> /root/ws/src/install/pkg/lib/python3.10/site-packages/pkg\n'}
+[0.308061] (pkg) StdoutLine: {'line': b'copying /root/ws/src/build/pkg/build/lib/pkg/node.py -> /root/ws/src/install/pkg/lib/python3.10/site-packages/pkg\n'}
+[0.308349] (pkg) StdoutLine: {'line': b'byte-compiling /root/ws/src/install/pkg/lib/python3.10/site-packages/pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[0.308466] (pkg) StdoutLine: {'line': b'byte-compiling /root/ws/src/install/pkg/lib/python3.10/site-packages/pkg/fake_gps_node.py to fake_gps_node.cpython-310.pyc\n'}
+[0.308647] (pkg) StdoutLine: {'line': b'byte-compiling /root/ws/src/install/pkg/lib/python3.10/site-packages/pkg/node.py to node.cpython-310.pyc\n'}
+[0.308782] (pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.308934] (pkg) StdoutLine: {'line': b'creating /root/ws/src/install/pkg/share/ament_index\n'}
+[0.309053] (pkg) StdoutLine: {'line': b'creating /root/ws/src/install/pkg/share/ament_index/resource_index\n'}
+[0.309092] (pkg) StdoutLine: {'line': b'creating /root/ws/src/install/pkg/share/ament_index/resource_index/packages\n'}
+[0.309142] (pkg) StdoutLine: {'line': b'copying resource/pkg -> /root/ws/src/install/pkg/share/ament_index/resource_index/packages\n'}
+[0.309169] (pkg) StdoutLine: {'line': b'copying package.xml -> /root/ws/src/install/pkg/share/pkg\n'}
+[0.309195] (pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.309910] (pkg) StdoutLine: {'line': b'Copying ../build/pkg/pkg.egg-info to /root/ws/src/install/pkg/lib/python3.10/site-packages/pkg-0.0.0-py3.10.egg-info\n'}
+[0.310379] (pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.321215] (pkg) StdoutLine: {'line': b"writing list of installed files to '/root/ws/src/build/pkg/install.log'\n"}
+[0.334650] (pkg) CommandEnded: {'returncode': 0}
+[0.340799] (pkg) JobEnded: {'identifier': 'pkg', 'rc': 0}
+[0.341266] (-) EventReactorShutdown: {}

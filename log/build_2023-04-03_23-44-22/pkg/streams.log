@@ -1,0 +1,20 @@
+[0.348s] Invoking command in '/root/ws/build/pkg': PYTHONPATH=/root/ws/build/pkg/prefix_override:/root/ws/install/pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ws/build/pkg/build --no-deps install_data
+[0.449s] running develop
+[0.449s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.449s]   warnings.warn(
+[0.450s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.450s]   warnings.warn(
+[0.486s] running egg_info
+[0.486s] writing pkg.egg-info/PKG-INFO
+[0.487s] writing dependency_links to pkg.egg-info/dependency_links.txt
+[0.487s] writing entry points to pkg.egg-info/entry_points.txt
+[0.487s] writing requirements to pkg.egg-info/requires.txt
+[0.487s] writing top-level names to pkg.egg-info/top_level.txt
+[0.487s] reading manifest file 'pkg.egg-info/SOURCES.txt'
+[0.488s] writing manifest file 'pkg.egg-info/SOURCES.txt'
+[0.488s] running build_ext
+[0.488s] Creating /root/ws/install/pkg/lib/python3.10/site-packages/pkg.egg-link (link to .)
+[0.489s] 
+[0.489s] Installed /root/ws/build/pkg
+[0.489s] running install_data
+[0.507s] Invoked command in '/root/ws/build/pkg' returned '0': PYTHONPATH=/root/ws/build/pkg/prefix_override:/root/ws/install/pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ws/build/pkg/build --no-deps install_data

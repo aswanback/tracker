@@ -1,0 +1,24 @@
+[0.273s] Invoking command in '/root/ws/build/tracker_pkg': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ws/build/tracker_pkg/build --no-deps install_data
+[0.367s] running develop
+[0.367s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.367s]   warnings.warn(
+[0.367s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.367s]   warnings.warn(
+[0.402s] running egg_info
+[0.402s] writing tracker_pkg.egg-info/PKG-INFO
+[0.403s] writing dependency_links to tracker_pkg.egg-info/dependency_links.txt
+[0.403s] writing entry points to tracker_pkg.egg-info/entry_points.txt
+[0.403s] writing requirements to tracker_pkg.egg-info/requires.txt
+[0.403s] writing top-level names to tracker_pkg.egg-info/top_level.txt
+[0.404s] reading manifest file 'tracker_pkg.egg-info/SOURCES.txt'
+[0.404s] writing manifest file 'tracker_pkg.egg-info/SOURCES.txt'
+[0.405s] running build_ext
+[0.405s] Creating /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker-pkg.egg-link (link to .)
+[0.405s] Installing fake_gps_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+[0.406s] Installing fake_ui_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+[0.406s] Installing tracker_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+[0.406s] 
+[0.406s] Installed /root/ws/build/tracker_pkg
+[0.406s] running install_data
+[0.406s] error: can't copy 'tracker_pkgaccel_stepper.py': doesn't exist or not a regular file
+[0.420s] Invoked command in '/root/ws/build/tracker_pkg' returned '1': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ws/build/tracker_pkg/build --no-deps install_data

@@ -1,0 +1,23 @@
+[0.256s] Invoking command in '/root/ws/build/tracker_pkg': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ws/build/tracker_pkg/build --no-deps install_data
+[0.350s] running develop
+[0.350s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.350s]   warnings.warn(
+[0.351s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.351s]   warnings.warn(
+[0.385s] running egg_info
+[0.386s] writing tracker_pkg.egg-info/PKG-INFO
+[0.386s] writing dependency_links to tracker_pkg.egg-info/dependency_links.txt
+[0.386s] writing entry points to tracker_pkg.egg-info/entry_points.txt
+[0.386s] writing requirements to tracker_pkg.egg-info/requires.txt
+[0.386s] writing top-level names to tracker_pkg.egg-info/top_level.txt
+[0.387s] reading manifest file 'tracker_pkg.egg-info/SOURCES.txt'
+[0.387s] writing manifest file 'tracker_pkg.egg-info/SOURCES.txt'
+[0.388s] running build_ext
+[0.388s] Creating /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker-pkg.egg-link (link to .)
+[0.389s] Installing fake_gps_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+[0.389s] Installing fake_ui_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+[0.389s] Installing tracker_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+[0.389s] 
+[0.389s] Installed /root/ws/build/tracker_pkg
+[0.389s] running install_data
+[0.402s] Invoked command in '/root/ws/build/tracker_pkg' returned '0': PYTHONPATH=/root/ws/build/tracker_pkg/prefix_override:/root/ws/install/tracker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /root/ws/build/tracker_pkg/build --no-deps install_data

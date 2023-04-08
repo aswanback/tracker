@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing tracker_pkg.egg-info/PKG-INFO
+writing dependency_links to tracker_pkg.egg-info/dependency_links.txt
+writing entry points to tracker_pkg.egg-info/entry_points.txt
+writing requirements to tracker_pkg.egg-info/requires.txt
+writing top-level names to tracker_pkg.egg-info/top_level.txt
+reading manifest file 'tracker_pkg.egg-info/SOURCES.txt'
+writing manifest file 'tracker_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ws/install/tracker_pkg/lib/python3.10/site-packages/tracker-pkg.egg-link (link to .)
+Installing fake_gps_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+Installing fake_ui_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+Installing tracker_node script to /root/ws/install/tracker_pkg/lib/tracker_pkg
+
+Installed /root/ws/build/tracker_pkg
+running install_data
+copying tracker_pkg/accel_stepper.py -> /root/ws/install/tracker_pkg/include/tracker_pkg

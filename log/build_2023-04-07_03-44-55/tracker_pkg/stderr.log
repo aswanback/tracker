@@ -1,0 +1,6 @@
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+package init file 'lib/__init__.py' not found (or not a regular file)
+error: can't copy 'tracker_pkg/accel_stepper.py': doesn't exist or not a regular file

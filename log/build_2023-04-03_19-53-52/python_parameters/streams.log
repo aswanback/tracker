@@ -1,0 +1,9 @@
+[0.225s] Invoking command in '/root/ws/src/pkg': PYTHONPATH=/root/ws/build/python_parameters/prefix_override:/root/ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /root/ws/build/python_parameters/build install --record /root/ws/build/python_parameters/install.log --single-version-externally-managed
+[0.304s] running egg_info
+[0.304s] writing ../../build/python_parameters/pkg.egg-info/PKG-INFO
+[0.304s] writing dependency_links to ../../build/python_parameters/pkg.egg-info/dependency_links.txt
+[0.305s] writing entry points to ../../build/python_parameters/pkg.egg-info/entry_points.txt
+[0.305s] writing requirements to ../../build/python_parameters/pkg.egg-info/requires.txt
+[0.305s] writing top-level names to ../../build/python_parameters/pkg.egg-info/top_level.txt
+[0.305s] error: package directory 'pkg' does not exist
+[0.315s] Invoked command in '/root/ws/src/pkg' returned '1': PYTHONPATH=/root/ws/build/python_parameters/prefix_override:/root/ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /root/ws/build/python_parameters/build install --record /root/ws/build/python_parameters/install.log --single-version-externally-managed

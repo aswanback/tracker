@@ -1,0 +1,12 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing src/tracker_pkg.egg-info/PKG-INFO
+writing dependency_links to src/tracker_pkg.egg-info/dependency_links.txt
+writing entry points to src/tracker_pkg.egg-info/entry_points.txt
+writing requirements to src/tracker_pkg.egg-info/requires.txt
+writing top-level names to src/tracker_pkg.egg-info/top_level.txt
+error: package directory 'src/tracker_pkg' does not exist

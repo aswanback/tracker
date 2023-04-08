@@ -1,0 +1,42 @@
+[0.227s] Invoking command in '/root/ws/build/pkg': PYTHONPATH=/root/ws/build/pkg/prefix_override:/root/ws/install/pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/ws/build/pkg/build
+[0.317s] running develop
+[0.317s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.317s]   warnings.warn(
+[0.318s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.318s]   warnings.warn(
+[0.350s] Removing /root/ws/install/pkg/lib/python3.10/site-packages/pkg.egg-link (link to .)
+[0.364s] Invoked command in '/root/ws/build/pkg' returned '0': PYTHONPATH=/root/ws/build/pkg/prefix_override:/root/ws/install/pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /root/ws/build/pkg/build
+[0.364s] Invoking command in '/root/ws/src/pkg': PYTHONPATH=/root/ws/build/pkg/prefix_override:/root/ws/install/pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg build --build-base /root/ws/build/pkg/build install --record /root/ws/build/pkg/install.log --single-version-externally-managed
+[0.443s] running egg_info
+[0.444s] writing ../../build/pkg/pkg.egg-info/PKG-INFO
+[0.444s] writing dependency_links to ../../build/pkg/pkg.egg-info/dependency_links.txt
+[0.444s] writing entry points to ../../build/pkg/pkg.egg-info/entry_points.txt
+[0.444s] writing requirements to ../../build/pkg/pkg.egg-info/requires.txt
+[0.444s] writing top-level names to ../../build/pkg/pkg.egg-info/top_level.txt
+[0.445s] reading manifest file '../../build/pkg/pkg.egg-info/SOURCES.txt'
+[0.445s] writing manifest file '../../build/pkg/pkg.egg-info/SOURCES.txt'
+[0.445s] running build
+[0.445s] running build_py
+[0.445s] creating /root/ws/build/pkg/build
+[0.445s] creating /root/ws/build/pkg/build/lib
+[0.445s] creating /root/ws/build/pkg/build/lib/pkg
+[0.446s] copying pkg/__init__.py -> /root/ws/build/pkg/build/lib/pkg
+[0.446s] copying pkg/fake_gps_node.py -> /root/ws/build/pkg/build/lib/pkg
+[0.446s] copying pkg/node.py -> /root/ws/build/pkg/build/lib/pkg
+[0.446s] running install
+[0.446s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.446s]   warnings.warn(
+[0.446s] running install_lib
+[0.446s] creating /root/ws/install/pkg/lib/python3.10/site-packages/pkg
+[0.446s] copying /root/ws/build/pkg/build/lib/pkg/__init__.py -> /root/ws/install/pkg/lib/python3.10/site-packages/pkg
+[0.446s] copying /root/ws/build/pkg/build/lib/pkg/fake_gps_node.py -> /root/ws/install/pkg/lib/python3.10/site-packages/pkg
+[0.446s] copying /root/ws/build/pkg/build/lib/pkg/node.py -> /root/ws/install/pkg/lib/python3.10/site-packages/pkg
+[0.447s] byte-compiling /root/ws/install/pkg/lib/python3.10/site-packages/pkg/__init__.py to __init__.cpython-310.pyc
+[0.447s] byte-compiling /root/ws/install/pkg/lib/python3.10/site-packages/pkg/fake_gps_node.py to fake_gps_node.cpython-310.pyc
+[0.447s] byte-compiling /root/ws/install/pkg/lib/python3.10/site-packages/pkg/node.py to node.cpython-310.pyc
+[0.447s] running install_data
+[0.447s] running install_egg_info
+[0.448s] Copying ../../build/pkg/pkg.egg-info to /root/ws/install/pkg/lib/python3.10/site-packages/pkg-0.0.0-py3.10.egg-info
+[0.449s] running install_scripts
+[0.459s] writing list of installed files to '/root/ws/build/pkg/install.log'
+[0.471s] Invoked command in '/root/ws/src/pkg' returned '0': PYTHONPATH=/root/ws/build/pkg/prefix_override:/root/ws/install/pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg build --build-base /root/ws/build/pkg/build install --record /root/ws/build/pkg/install.log --single-version-externally-managed
